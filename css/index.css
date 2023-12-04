@@ -1,0 +1,50 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3A4042;
+    border-bottom: 10px solid #000;
+    padding: 10px 20px;
+}
+
+nav {
+    text-align: right;
+}
+
+a {
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    font-size: 20px; 
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+    transition: 0.3s;
+}
+
+a::before{
+    content: "";
+    background-color: #CEB02A;
+    height: 10px;
+    width: 10px;
+    margin-right: 10px;
+}
+
+#button-download {
+    display: inline-block;
+    background-color: #4C5B84;
+    padding: 18px 20px;
+    box-shadow: 5px 5px 0 black;
+    margin-left: 10px;
+    margin-right: 0px;
+    transition: 0.3s;
+}
+
+#button-download:hover {
+    background-color: #CEB02A;
+}
+
+a:hover {
+    color: black;
+    font-size: 22px;
+}

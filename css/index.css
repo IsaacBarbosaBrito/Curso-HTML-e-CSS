@@ -4,6 +4,13 @@ header {
     background-color: #3A4042;
     border-bottom: 10px solid #000;
     padding: 10px 20px;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Press Start 2P', sans-serif;
+    color:#4C5B84;
+    text-shadow: 5px 5px 0px black;
 }
 
 nav {

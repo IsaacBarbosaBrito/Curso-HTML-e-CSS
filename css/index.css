@@ -53,50 +53,5 @@ a::before{
 
 a:hover {
     color: black;
-    transform: scale(1.1);
-}
-
-main {
-
-}
-
-h2 {
-    margin-top: 116px;
-    margin-left: 91px;
-    box-shadow: 10px 10px 0 black;
-    padding: 42px 17px 44px 40px;
-    display: inline-block;
-    font-size: 40px;
-    font-family: 'Press Start 2P';
-    font-weight: 400;
-}
-h2::after {
-    width: 570px;
-    height: 30px;
-    content: "FullStack Developer";
-    padding-right: 17px;
-    font-size: 30px;
-}
-
-#button-cv{
-    font-family: 'Fira Code';
-    color: black;
-    margin-top: 38px;
-    margin-left: 181px;
-    margin-right: 112px;
-    padding: 17px 18px 17.43px 20px;
-    box-shadow: 5px 5px 0 black;
-    transition: 0.3s linear;
-}
-
-#button-contatos{
-    width: 132px;
-    height: 25.57377;
-    font-family: 'Fira Code';
-    display: inline-block;
-    color: black;
-    padding: 17px 18px 17.43px 20px;
-    box-shadow: 5px 5px 0 black;
-    transition: 0.3s linear;
-    text-align: center;
+    font-size: 22px;
 }

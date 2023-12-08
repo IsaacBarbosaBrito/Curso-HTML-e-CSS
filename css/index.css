@@ -79,7 +79,7 @@ h2::after {
 }
 
 #button-cv{
-    color: black;
+    background-color: #4C5B84;
     margin-top: 38px;
     margin-left: 181px;
     margin-right: 112px;
@@ -89,9 +89,19 @@ h2::after {
 }
 
 #button-contatos{
+    background-color: #4C5B84;
     display: inline-block;
-    color: black;
     padding: 17px 18px 17.43px 20px;
     box-shadow: 5px 5px 0 black;
     transition: 0.3s linear;
+}
+
+#button-contatos:hover {
+    background-color: #CEB02A;
+    color: black;
+}
+
+#button-cv:hover {
+    background-color: #CEB02A;
+    color: black;
 }

@@ -7,6 +7,10 @@ header {
     align-items: center;
 }
 
+body {
+    
+}
+
 h1{
     font-family: 'Press Start 2P', sans-serif;
     color:#4C5B84;
@@ -42,11 +46,8 @@ a:hover {
     transform: scale(1.1);
 }
 
-main {
-
-}
-
 h2 {
+    background-color: #3A4042;
     margin-top: 116px;
     margin-left: 91px;
     box-shadow: 10px 10px 0 black;
@@ -55,8 +56,12 @@ h2 {
     font-size: 40px;
     font-family: 'Press Start 2P';
     font-weight: 400;
+    text-shadow: 5px 5px 0 black;
+    color: #CEB02A;
 }
+
 h2::after {
+    color: white;
     width: 570px;
     height: 30px;
     content: "FullStack Developer";

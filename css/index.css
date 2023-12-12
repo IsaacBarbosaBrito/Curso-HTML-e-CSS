@@ -37,20 +37,6 @@ a::before{
     margin-right: 10px;
 }
 
-#button-download {
-    display: inline-block;
-    background-color: #4C5B84;
-    padding: 18px 20px;
-    box-shadow: 5px 5px 0 black;
-    margin-left: 10px;
-    margin-right: 0px;
-    transition: 0.3s linear;
-}
-
-#button-download:hover {
-    background-color: #CEB02A;
-}
-
 a:hover {
     color: black;
     transform: scale(1.1);
@@ -78,16 +64,6 @@ h2::after {
     font-size: 30px;
 }
 
-#button-cv{
-    background-color: #4C5B84;
-    margin-top: 38px;
-    margin-left: 181px;
-    margin-right: 112px;
-    padding: 17px 18px 17.43px 20px;
-    box-shadow: 5px 5px 0 black;
-    transition: 0.3s linear;
-}
-
 #button-contatos{
     background-color: #4C5B84;
     display: inline-block;
@@ -101,7 +77,21 @@ h2::after {
     color: black;
 }
 
-#button-cv:hover {
+.download-cv{
+    display: inline-block;
+    background-color: #4C5B84;
+    padding: 18px 20px;
+    box-shadow: 5px 5px 0 black;
+    margin-left: 10px;
+    margin-right: 0px;
+    transition: 0.3s linear;
+}
+
+.download-cv:hover{
     background-color: #CEB02A;
     color: black;
+}
+
+#button-cv{
+    margin: 0px 112px 0px 181px;
 }

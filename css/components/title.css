@@ -11,12 +11,3 @@ h2 {
     text-shadow: 5px 5px 0 black;
     color: #CEB02A;
 }
-
-h2::after {
-    color: white;
-    width: 570px;
-    height: 30px;
-    content: "FullStack Developer";
-    padding-right: 17px;
-    font-size: 30px;
-}
